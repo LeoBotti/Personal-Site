@@ -1,8 +1,9 @@
 import React from "react";
 
-const Skills = (props) => {
+const WebDev = (props) => {
   return (
-    <div className='Skills'>
+    <div className='WebDev'>
+      <h1>WEB DEV</h1>
       Languages: Javascript, Ruby <br/>
       Front End: HTML, CSS, Bootstrap, ReactJS  <br/>
       Back End: PostgreSQL <br/>
@@ -12,4 +13,4 @@ const Skills = (props) => {
   )
 }
 
-export default Skills;
+export default WebDev;

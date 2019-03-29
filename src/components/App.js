@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import NavBar from './NavBar'
 import Home from './Home'
 import Projects from './Projects'
-import Skills from './Skills'
+import WebDev from './WebDev'
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
 
         <Switch>
           <Route path='/' exact component={Home}></Route>
-          <Route path='/skills' exact component={Skills}></Route>
+          <Route path='/webdev' exact component={WebDev}></Route>
           <Route path='/projects' exact component={Projects}></Route>
           <Route path='/github' component={ () => window.location = 'https://github.com/LeoBotti' }></Route>
           <Route path='/linkedin' component={ () => window.location = 'https://linkedin.com/in/nicholas-a-chan' }></Route>
