@@ -19,6 +19,9 @@ class App extends Component {
           <Route path='/projects' exact component={Projects}></Route>
           <Route path='/github' component={ () => window.location = 'https://github.com/LeoBotti' }></Route>
           <Route path='/linkedin' component={ () => window.location = 'https://linkedin.com/in/nicholas-a-chan' }></Route>
+          <Route path='/feeder' component={ () => window.location = 'https://github.com/LeoBotti/FEEDER' }></Route>
+          <Route path='/quizzbuzz/git' component={ () => window.location = 'https://github.com/chrischu5/Team_Salmon'}/>
+          <Route path='/quizzbuzz/heroku' component={ () => window.location = 'https://quizzbuzzsalmon.herokuapp.com/'}/>
         </Switch>
       </BrowserRouter>      
       </div>
