@@ -7,7 +7,28 @@ import Projects from './Projects'
 import WebDev from './WebDev'
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      loading: true
+    }
+  }
+
+  componentDidMount(){
+    this.setState({ loading: false })
+  }
+
   render() {
+    const { loading } = this.state;
+
+    if(loading){
+      return(
+        <main>
+          <h3>Loading...</h3>
+        </main>
+      )
+    }
+
     return (
     <div className="App">
       <BrowserRouter>
@@ -23,7 +44,7 @@ class App extends Component {
           <Route path='/quizzbuzz/git' component={ () => window.location = 'https://github.com/chrischu5/Team_Salmon'}/>
           <Route path='/quizzbuzz/heroku' component={ () => window.location = 'https://quizzbuzzsalmon.herokuapp.com/'}/>
         </Switch>
-      </BrowserRouter>      
+      </BrowserRouter> 
       </div>
     );
   }
