@@ -1,5 +1,3 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  float: right;
+.navlink {
+  padding-left: 0.5rem;
 }

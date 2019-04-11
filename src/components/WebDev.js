@@ -4,11 +4,10 @@ const WebDev = (props) => {
   return (
     <div className='WebDev'>
       <h1>WEB DEV</h1>
-      Languages: Javascript, Ruby <br/>
-      Front End: HTML, CSS, Bootstrap, ReactJS  <br/>
-      Back End: PostgreSQL <br/>
-      Frameworks: ExpressJS, Ruby on Rails <br/>
-      Other Tech: Github, Postman, VS Code
+      Languages: Javascript, Ruby, HTML, CSS, jQuery <br/>
+      Database: PostgreSQL <br/>
+      Frameworks: ExpressJS, Ruby on Rails, ReactJS, Bootstrap, NodeJS <br/>
+      Other Tech: Github, NPM, Postman, VS Code
     </div>
   )
 }
