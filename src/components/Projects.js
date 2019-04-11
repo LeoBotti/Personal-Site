@@ -7,7 +7,7 @@ const Projects = (props) => {
 
     <strong>Feeder</strong><br/>
     View {" "}
-      <a href="https://github.com/LeoBotti/FEEDER" target='_blank' rel="noopener noreferrer">
+      <a href="https://github.com/NicAChan/FEEDER" target='_blank' rel="noopener noreferrer">
       Github Repository
       </a> <br/> <br/>
 
