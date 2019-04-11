@@ -38,11 +38,6 @@ class App extends Component {
           <Route path='/' exact component={Home}></Route>
           <Route path='/webdev' exact component={WebDev}></Route>
           <Route path='/projects' exact component={Projects}></Route>
-          <Route path='/github' component={ () => { window.location = 'https://github.com/LeoBotti'; return null} }></Route>
-          <Route path='/linkedin' component={ () => { window.location = 'https://linkedin.com/in/nicholas-a-chan'; return null} }></Route>
-          <Route path='/feeder' component={ () => { window.location = 'https://github.com/LeoBotti/FEEDER'; return null } }></Route>
-          <Route path='/quizzbuzz/git' component={ () => { window.location = 'https://github.com/chrischu5/Team_Salmon'; return null} }/>
-          <Route path='/quizzbuzz/heroku' component={ () => { window.location = 'https://quizzbuzzsalmon.herokuapp.com/'; return null } }/>
         </Switch>
       </BrowserRouter> 
       </div>

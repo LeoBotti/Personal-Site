@@ -1,13 +1,12 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
 
 const Contact = (props) => {
   return(
     <div className="Contact">
       <h1>CONTACT</h1>
       EMAIL: nicholaschan1994@gmail.com <br/>
-      GITHUB: <NavLink to='/github' target='_blank'>github.com/LeoBotti</NavLink> <br/>
-      LINKEDIN: <NavLink to='/linkedin' target='_blank'>linkedin.com/in/nicholas-a-chan</NavLink>
+      GITHUB: <a href="https://github.com/LeoBotti" target="_blank" rel="noopener noreferrer">github.com/LeoBotti</a> <br/>
+      LINKEDIN: <a href="https://linkedin.com/in/nicholas-a-chan" target='_blank' rel="noopener noreferrer">linkedin.com/in/nicholas-a-chan</a>
     </div>
   )
 }

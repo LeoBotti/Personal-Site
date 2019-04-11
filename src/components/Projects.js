@@ -1,15 +1,26 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'
 
 const Projects = (props) => {
   return(
   <div className='Projects'>
     <h1>Projects</h1>
+
     <strong>Feeder</strong>
-    <p>View <NavLink to='/feeder' target='_blank'>Github Repository</NavLink> </p><br/>
+    <p>View 
+      <a href="https://github.com/LeoBotti/FEEDER" target='_blank' rel="noopener noreferrer">
+      Github Repository
+      </a>
+    </p>
+
     <strong>QuizzBuzz</strong>
-    <p>View <NavLink to='/quizzbuzz/git' target='_blank'>Github Repository</NavLink> </p>
-    <p>View <NavLink to='/quizzbuzz/heroku' target='_blank'>App deployed to Heroku</NavLink></p>
+    <p>View 
+      <a href="https://github.com/chrischu5/Team_Salmon" target='_blank' rel="noopener noreferrer">
+      Github Repository</a>
+    </p>
+    <p>View 
+      <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
+      App deployed to Heroku</a>
+    </p>
   </div>
   )
 }
