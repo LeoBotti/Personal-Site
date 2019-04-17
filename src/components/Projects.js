@@ -1,26 +1,47 @@
 import React from "react";
+import { Tabs, Tab } from 'react-bootstrap';
+import {ProjectItem} from "./ProjectItem"
 
-const Projects = (props) => {
-  return(
-  <div className='Projects'>
-    <h1>Projects</h1>
-
-    <strong>Feeder</strong><br/>
-    View {" "}
-      <a href="https://github.com/NicAChan/FEEDER" target='_blank' rel="noopener noreferrer">
-      Github Repository
-      </a> <br/> <br/>
-
-    <strong>QuizzBuzz</strong><br/>
-    View {" "}
-      <a href="https://github.com/chrischu5/Team_Salmon" target='_blank' rel="noopener noreferrer">
-      Github Repository</a> <br/>
+const feederObject = {
+  header: "Feeder",
+  githubLink: "https://github.com/NicAChan/FEEDER",
+  appLink: "",
+  images: [
     
-    View {" "}
-      <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
-      App deployed to Heroku</a>
-  </div>
-  )
+  ]
 }
+
+const quizzBuzzObject = {
+  header: "QuizzBuzz",
+  githubLink: "https://github.com/chrischu5/Team_Salmon",
+  images: [
+    '/images/qbWelcome.png',
+    'images/qbIndex.png',
+    '/images/qbShow.png',
+    '/images/qbResult.png'
+  ]
+}
+
+class Projects extends React.Component {
+  render(){
+    return (
+    <div className='Projects'>
+      <h1>Projects</h1>
+      <Tabs defaultActiveKey='feeder' id='projects-tabs'>
+        <Tab eventKey='feeder' title='Feeder'>
+          <ProjectItem object={ feederObject } />
+        </Tab>
+
+        <Tab eventKey='quizzbuzz' title='QuizzBuzz'>
+          <ProjectItem object={ quizzBuzzObject } />
+        </Tab>
+        
+      </Tabs>
+
+    </div>
+    )
+  }
+}
+
 
 export default Projects;

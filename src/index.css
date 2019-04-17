@@ -1,3 +1,6 @@
+@import './styles/NavBar.css';
+@import './styles/Carousel.css';
+
 body {
   margin: 0;
   padding: 0;
