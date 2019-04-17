@@ -5,7 +5,6 @@ import {ProjectItem} from "./ProjectItem"
 const feederObject = {
   header: "Feeder",
   githubLink: "https://github.com/NicAChan/FEEDER",
-  appLink: "",
   images: [
     
   ]
@@ -14,6 +13,7 @@ const feederObject = {
 const quizzBuzzObject = {
   header: "QuizzBuzz",
   githubLink: "https://github.com/chrischu5/Team_Salmon",
+  appLink: "https://quizzbuzzsalmon.herokuapp.com/",
   images: [
     '/images/qbWelcome.png',
     'images/qbIndex.png',

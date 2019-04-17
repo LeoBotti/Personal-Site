@@ -30,34 +30,28 @@ export class ProjectItem extends React.Component{
       : ""
   }
 
+  rednerAppLink = (appLink) => {
+    return appLink ?
+    <>
+      View {" "}
+          <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
+          App deployed to Heroku
+          </a> 
+    </> 
+    : ""
+  }
+
 
   render(){
     const {object} = this.props
-    const { images, header, githubLink } = object
+    const { images, header, githubLink, appLink } = object
 
     return(
       <>
         <strong>{header}</strong><br/> 
         {this.renderImages(images)}
         {this.renderGithubLink(githubLink)}
-        
-        {/* View {" "}
-          <a href="https://github.com/NicAChan/FEEDER" target='_blank' rel="noopener noreferrer">
-          Github Repository
-          </a> <br/> <br/>
-        */}
-
-        
-        {/*         
-        View {" "}
-          <a href="https://github.com/chrischu5/Team_Salmon" target='_blank' rel="noopener noreferrer">
-          Github Repository
-          </a> <br/>
-        
-        View {" "}
-          <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
-          App deployed to Heroku
-          </a> */}
+        {this.rednerAppLink(appLink)}
       </>
       )
   }
