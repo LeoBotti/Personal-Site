@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import NavBar from './NavBar'
 import Home from './Home'
 import Projects from './Projects'
-import WebDev from './WebDev'
 
 class App extends Component {
   constructor(props){
@@ -35,7 +34,6 @@ class App extends Component {
 
         <Switch>
           <Route path='/' exact component={Home}></Route>
-          <Route path='/webdev' exact component={WebDev}></Route>
           <Route path='/projects' exact component={Projects}></Route>
         </Switch>
       </BrowserRouter> 

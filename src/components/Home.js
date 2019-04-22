@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Contact from './Contact'
+import WebDev from './WebDev';
 
 const Home = (props) => {
   return(
@@ -9,6 +10,8 @@ const Home = (props) => {
       <About/>
 
       <Contact />
+
+      <WebDev />
     </div>
   )
 }
