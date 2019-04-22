@@ -19,6 +19,15 @@ export class ProjectItem extends React.Component{
 
   }
 
+  renderInfo = (projectInfo1, projectInfo2) => {
+    return projectInfo2 ?
+      <>
+        {projectInfo1} <br/> <br/>
+        {projectInfo2}
+      </>
+    : <>{projectInfo1}</>
+  }
+
   renderGithubLink = (githubLink) => {
     return githubLink ? 
       <>
@@ -44,11 +53,12 @@ export class ProjectItem extends React.Component{
 
   render(){
     const {object} = this.props
-    const { images, header, githubLink, appLink } = object
+    const { images, header, githubLink, appLink, projectInfo1, projectInfo2 } = object
 
     return(
       <>
         <strong>{header}</strong><br/> 
+        {this.renderInfo(projectInfo1, projectInfo2)}
         {this.renderImages(images)}
         {this.renderGithubLink(githubLink)}
         {this.rednerAppLink(appLink)}
