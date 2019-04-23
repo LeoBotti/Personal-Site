@@ -1,5 +1,6 @@
 @import './styles/NavBar.css';
 @import './styles/Carousel.css';
+@import './styles/ProjectTabs.css';
 
 body {
   margin: 0;

@@ -1,0 +1,8 @@
+.nav-link{
+  border: none !important;
+}
+
+.nav-tabs{
+  border-bottom: none !important;
+  justify-content: center;
+}
