@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Orbitron|Press+Start+2P|Quantico|VT323');
+
+
+.Home{
+  text-align: center;
+}
+
+#home_name{
+  font-family: 'Cute Font', cursive;
+  font-size: 4rem;
+  /* font-family: 'Quantico', sans-serif; */
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'VT323', monospace; */
+  /* font-family: 'Press Start 2P', cursive; */
+}

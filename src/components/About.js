@@ -4,9 +4,9 @@ const About = (props) => {
   return(
     <div className="About" id='about'>
       <h2>ABOUT ME</h2>
-      personal (where im from, languagues, hobbies)
+      Hi, I’m Nicholas! I’m a Full-Stack web developer based in Vancouver, BC. 
       programming
-      education
+      educationtional background
     </div>
   )
 }

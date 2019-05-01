@@ -6,12 +6,12 @@ import WebDev from './WebDev';
 const Home = (props) => {
   return(
     <div className="Home">
-      <h1>Nicholas A. Chan</h1>
+      <h1 id='home_name'>NICHOLAS A. CHAN</h1>
       <About/>
 
-      <Contact />
-
       <WebDev />
+
+      <Contact />
     </div>
   )
 }
