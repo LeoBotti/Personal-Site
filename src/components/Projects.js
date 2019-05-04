@@ -34,7 +34,7 @@ class Projects extends React.Component {
   render(){
     return (
     <div className='Projects'>
-      <h1>Projects</h1>
+      <h3>Projects</h3>
       <Tabs defaultActiveKey='feeder' id='projects-tabs'>
         <Tab eventKey='feeder' title='Feeder'>
           <ProjectItem object={ feederObject } />

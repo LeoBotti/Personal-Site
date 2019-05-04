@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Cute+Font|Orbitron|Press+Start+2P|Quantico|VT323');
-
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Exo+2|Montserrat|Orbitron');
 
 .Home{
   text-align: center;
 }
 
 #home_name{
-  font-family: 'Cute Font', cursive;
-  font-size: 4rem;
-  /* font-family: 'Quantico', sans-serif; */
+  /* font-family: 'Cute Font', cursive; */
+  /* font-size: 4rem; */
   /* font-family: 'Orbitron', sans-serif; */
-  /* font-family: 'VT323', monospace; */
-  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'Montserrat', sans-serif
+  /* font-family: 'Exo 2', sans-serif;  */
 }
