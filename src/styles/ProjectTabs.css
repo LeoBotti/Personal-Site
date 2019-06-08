@@ -5,6 +5,7 @@
 .nav-tabs{
   border-bottom: none !important;
   justify-content: center;
+  padding-top: 20px
 }
 
 .tab-content{

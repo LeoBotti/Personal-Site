@@ -7,7 +7,7 @@ const WebDev = (props) => {
       Languages: Javascript, Ruby, HTML, CSS, jQuery <br/>
       Database: PostgreSQL <br/>
       Frameworks: ExpressJS, Ruby on Rails, ReactJS, Bootstrap, NodeJS <br/>
-      Other Tech: Github, NPM, Postman, VS Code
+      Other Tech: Github, NPM, Postman
     </div>
   )
 }

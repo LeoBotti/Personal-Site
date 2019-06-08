@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Cute+Font|Exo+2|Montserrat|Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Orbitron|Poiret+One');
 
 .Home{
   text-align: center;
 }
 
 #home_name{
-  /* font-family: 'Cute Font', cursive; */
-  /* font-size: 4rem; */
-  /* font-family: 'Orbitron', sans-serif; */
-  font-family: 'Montserrat', sans-serif
-  /* font-family: 'Exo 2', sans-serif;  */
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Poiret One', cursive; */
+  /* font-family: 'Julius Sans One', sans-serif; */
 }

@@ -57,7 +57,6 @@ export class ProjectItem extends React.Component{
 
     return(
       <>
-        <strong>{header}</strong><br/> 
         {this.renderImages(images)}
         {this.renderGithubLink(githubLink)}<br/>
         {this.rednerAppLink(appLink)}<br/>
