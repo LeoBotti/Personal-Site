@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Orbitron|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 .Home{
   text-align: center;
 }
 
 #home_name{
+  padding-top: 15px;
   font-family: 'Orbitron', sans-serif;
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Julius Sans One', sans-serif; */
 }
