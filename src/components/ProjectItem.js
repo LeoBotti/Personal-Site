@@ -34,7 +34,7 @@ export class ProjectItem extends React.Component{
         View {" "}
           <a href={githubLink} target='_blank' rel="noopener noreferrer">
             Github Repo
-          </a>
+          </a><br/>
       </> 
       : ""
   }
@@ -45,7 +45,7 @@ export class ProjectItem extends React.Component{
       View {" "}
           <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
           App on Heroku
-          </a> 
+          </a> <br/>
     </> 
     : ""
   }
@@ -58,8 +58,8 @@ export class ProjectItem extends React.Component{
     return(
       <>
         {this.renderImages(images)}
-        {this.renderGithubLink(githubLink)}<br/>
-        {this.rednerAppLink(appLink)}<br/>
+        {this.renderGithubLink(githubLink)}
+        {this.rednerAppLink(appLink)} <br/>
         {this.renderInfo(projectInfo1, projectInfo2)}
       </>
       )
