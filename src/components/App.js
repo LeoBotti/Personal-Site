@@ -29,7 +29,7 @@ class App extends Component {
 
     return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Personal-Site/">
         <NavBar />
 
         <Switch>
