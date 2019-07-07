@@ -11,3 +11,11 @@
 .tab-content{
   padding: 0px 35px 40px 35px;
 }
+
+.project-text-content {
+  justify-content: center;
+  width: 65%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}

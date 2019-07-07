@@ -58,9 +58,11 @@ export class ProjectItem extends React.Component{
     return(
       <>
         {this.renderImages(images)}
-        {this.renderGithubLink(githubLink)}
-        {this.rednerAppLink(appLink)} <br/>
-        {this.renderInfo(projectInfo1, projectInfo2)}
+        <div className="project-text-content">
+          {this.renderGithubLink(githubLink)}
+          {this.rednerAppLink(appLink)} <br/>
+          {this.renderInfo(projectInfo1, projectInfo2)}
+        </div>
       </>
       )
   }

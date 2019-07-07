@@ -5,14 +5,16 @@
 }
 
 #home_name{
-  padding-top: 15px;
+  padding-top: 10px;
   font-family: 'Orbitron', sans-serif;
 }
 
-.About{
-  margin-bottom: 13px;
-}
-
-.WebDev {
-  margin-bottom: 13px;
+.Home-content-block {
+  text-align: justify;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }

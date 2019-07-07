@@ -7,7 +7,7 @@ const Home = (props) => {
   return(
     <div className="Home">
       <h1 id='home_name'>NICHOLAS A. CHAN</h1>
-      <About/>
+      <About />
 
       <WebDev />
 
