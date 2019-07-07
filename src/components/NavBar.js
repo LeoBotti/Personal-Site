@@ -6,11 +6,11 @@ import { Navbar, NavbarBrand, Nav } from 'react-bootstrap'
 const NavBar = (props) => {
   return(
     <Navbar bg='dark' variant='dark'>
-      <NavbarBrand className='nav-initials' style={{marginRight: 0}} href='/'>N.</NavbarBrand>
+      <NavLink className='nav-initials' style={{marginRight: 0}} to="/">N.</NavLink>
       <NavbarBrand style={{marginRight: 0, color: "#343a40"}} target="_blank" href='http://www.nyan.cat/index.php?cat=technyancolor'>Y</NavbarBrand>
-      <NavbarBrand className='nav-initials' style={{marginRight: 0}} href='/'>A.</NavbarBrand>
+      <NavLink className='nav-initials' style={{marginRight: 0}} to="/">A.</NavLink>
       <NavbarBrand style={{marginRight: 0, color: "#343a40"}} target="_blank" href='http://www.nyan.cat/index.php?cat=technyancolor'>N</NavbarBrand>
-      <NavbarBrand className='nav-initials' style={{marginRight: 0}} href='/'>C.</NavbarBrand>
+      <NavLink className='nav-initials' style={{marginRight: 0}} to="/">C.</NavLink>
       <NavbarBrand style={{marginRight: 0, color: "#343a40"}} target="_blank" href='http://www.nyan.cat/index.php?cat=technyancolor'>A</NavbarBrand>
       <NavbarBrand style={{color: "#343a40"}}className='mr-auto' target="_blank" href='http://www.nyan.cat/index.php?cat=technyancolor'>T</NavbarBrand>
 
