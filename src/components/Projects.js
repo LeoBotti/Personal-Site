@@ -24,7 +24,7 @@ const quizzBuzzObject = {
   appLink: "https://quizzbuzzsalmon.herokuapp.com/",
   images: [
     '/images/qbWelcome.png',
-    'images/qbIndex.png',
+    '/images/qbIndex.png',
     '/images/qbShow.png',
     '/images/qbResult.png'
   ]
