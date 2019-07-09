@@ -29,7 +29,7 @@ class App extends Component {
 
     return (
     <div className="App">
-      <BrowserRouter basename="/Personal-Site/">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavBar />
 
         <Switch>
