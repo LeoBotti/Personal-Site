@@ -43,7 +43,7 @@ export class ProjectItem extends React.Component{
     return appLink ?
     <>
       View {" "}
-          <a href="https://quizzbuzzsalmon.herokuapp.com/" target='_blank' rel="noopener noreferrer">
+          <a href={appLink} target='_blank' rel="noopener noreferrer">
           App on Heroku
           </a> <br/>
     </> 
